@@ -37,8 +37,6 @@
 def my_sum(a, b):
     if a < 0 or b < 0:
         return 'Эта функция для нахождения суммы целых НЕОТРИЦАТЕЛЬНЫХ чисел'
-    if a == 0 and b == 0:
-        return 0
     elif a == 0:
         return b
     elif b == 0:

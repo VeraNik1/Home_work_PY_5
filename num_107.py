@@ -184,8 +184,8 @@ def AI_mod():
     if count > 8 and not game_over:
         print('Ничья!')
     elif win == 'X':       
-        print("Победил, Игрок №1")
-    else: print("Победил, бот")
+        print("Победил, Игрок")
+    else: print("Победил, Бот")
 
 
 print('''Крестики Нолики- это логическая игра между двумя противниками
